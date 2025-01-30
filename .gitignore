@@ -1,0 +1,49 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Environment variables
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Logs
+logs/
+*.log
+*.log.*
+
+# Build artifacts
+dist/
+build/
+
+# Database
+dump.rdb
+db.sqlite
+db.sqlite-wal
+db.sqlite-shm
+
+# IDE/editor specific
+.vscode/
+.idea/
+.DS_Store
+
+# System files
+Thumbs.db
+
+# Miscellaneous
+coverage/
+.next/
+.out/
+
+# Ignore uploads if stored locally
+/uploads/
+public/uploads/
+
+# Ignore Cloudinary cache
+.cloudinary/
+
+# Ignore compiled files from TypeScript (if applicable)
+*.tsbuildinfo
